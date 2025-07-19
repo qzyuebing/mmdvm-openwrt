@@ -16,7 +16,10 @@ msgid "AuthKey"
 msgstr "密钥"
 
 msgid "BER"
-msgstr "误码"
+msgstr "误码率"
+
+msgid "Transmiting ..."
+msgstr "发射中..."
 
 msgid "Callsign"
 msgstr "呼号"
@@ -75,6 +78,9 @@ msgstr "编辑调制解调器端口、接收/发射偏移量等"
 msgid "Enable DMR Mode"
 msgstr "启用DMR模式"
 
+msgid "Enable D-Star Mode"
+msgstr "启用D-Star模式"
+
 msgid "Enable NXDN Mode"
 msgstr "启用NXDN模式"
 
@@ -109,6 +115,9 @@ msgstr "在此你可以编辑设备的配置，如呼号、操作模式等"
 
 msgid "ID"
 msgstr ""
+
+msgid "Pos"
+msgstr "位置"
 
 msgid "InactivityTimeout"
 msgstr "最大空闲时间"
@@ -247,7 +256,7 @@ msgid "Simplex"
 msgstr "单工"
 
 msgid "Src"
-msgstr "源"
+msgstr "来源"
 
 msgid "Startup Reflector"
 msgstr "默认反射器"
@@ -286,8 +295,20 @@ msgstr "时间"
 msgid "Timeslot"
 msgstr "时隙"
 
+msgid "DMR Slot 1"
+msgstr "时隙1"
+
+msgid "DMR Slot 2"
+msgstr "时隙2"
+
+msgid "Net"
+msgstr "网络"
+
+msgid "RF"
+msgstr "本地"
+
 msgid "URL"
-msgstr ""
+msgstr "URL地址"
 
 msgid "Use the format <abbr title=\"the Unit is Hz\">434500000</abbr>, in Hz"
 msgstr "例如434500000，默认单位是赫兹"
@@ -320,3 +341,16 @@ msgstr "比如 114.3 E"
 
 msgid "e.g. 22.10 N"
 msgstr "比如 22.10 N"
+
+msgid "D-Star Settings"
+msgstr "D-Star设置"
+
+msgid "RPT1 Callsign"
+msgstr "RPT1 电台呼号"
+
+msgid "RPT2 Callsign"
+msgstr "RPT2 电台呼号"
+
+msgid "POCSAG Settings"
+msgstr "POCSAG 设置"
+
