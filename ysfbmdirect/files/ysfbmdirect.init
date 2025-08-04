@@ -1,0 +1,19 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+STOP=10
+
+USE_PROCD=1
+PROG=/usr/bin/YSFBMDirect
+CONFIG=/etc/config/ysfbmdirect
+
+start_service() {
+    procd_open_instance
+    procd_set_param command "$PROG" -c "$CONFIG"
+    procd_set_param respawn
+    procd_close_instance
+}
+
+stop_service() {
+    killall YSFBMDirect
+}
