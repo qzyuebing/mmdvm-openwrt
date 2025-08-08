@@ -1,23 +1,22 @@
 #
-# Copyright 2019-2020 Michael BD7MQB <bd7mqb@qq.com>
+# Copyright 2019 BD7MQB <bd7mqb@qq.com>
 # This is free software, licensed under the GNU GENERAL PUBLIC LICENSE, Version 2.0
 #
 
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ysf-clients
-PKG_REV:=ec16283
-PKG_VERSION:=1.3.0
+PKG_REV:=HEAD
+PKG_VERSION:=1.2.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=https://github.com/lazywalker/YSFClients.git
-PKG_MIRROR_HASH:=e9e7e69f147753c61fbf467499859efced663768a912522eb59952f93067e7e6
+PKG_SOURCE_URL:=https://github.com/g4klx/YSFClients.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=$(PKG_REV)
 PKG_SOURCE_PROTO:=git
 PKG_LICENSE:=GPL-2.0
-PKG_MAINTAINER:=Michael BD7MQB <bd7mqb@qq.com>
+PKG_MAINTAINER:=BD7MQB <bd7mqb@qq.com>
 
 include $(INCLUDE_DIR)/package.mk
 
