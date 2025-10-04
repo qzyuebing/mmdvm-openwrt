@@ -15,7 +15,7 @@ DMRIDFILE_TMP=/tmp/DMRIds.dat
 # Pre-formatted version to speedup the update process
 cd /etc/mmdvm
 rm DMRIds.dat -f
-wget http://123.60.74.175/files/DMRIds.dat
+wget http://42.194.130.14/BI4PCS/DMRIds.dat
 /etc/init.d/mmdvmhost restart
 
 # Compact version
